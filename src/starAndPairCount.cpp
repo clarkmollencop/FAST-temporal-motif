@@ -75,8 +75,48 @@ void countStarNum(vector<StarEdgeData>& starEdges, int allStarNum[3][2][2][2], i
                         }
                     }
                 }
+                int temp20 = starNum[2][start_dir][0][end_dir];
                 starNum[2][start_dir][0][end_dir] += nbrNum0[start_nbr];
+                if (starNum[2][start_dir][0][end_dir] > temp20 ) {
+                    if (start_dir==0 && end_dir==0){
+                        for (int k=0; k < (starNum[2][start_dir][0][end_dir] - temp20); ++k) {
+                            motifTimestamps[31].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==0 && end_dir==1){
+                        for (int k=0; k < (starNum[2][start_dir][0][end_dir] - temp20); ++k) {
+                            motifTimestamps[25].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==0){
+                        for (int k=0; k < (starNum[2][start_dir][0][end_dir] - temp20); ++k) {
+                            motifTimestamps[33].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==1){
+                        for (int k=0; k < (starNum[2][start_dir][0][end_dir] - temp20); ++k) {
+                            motifTimestamps[27].push_back(starEdges[i].t);
+                        }
+                    }
+                }
+                int temp21 = starNum[2][start_dir][1][end_dir];
                 starNum[2][start_dir][1][end_dir] += nbrNum1[start_nbr];
+                if (starNum[2][start_dir][1][end_dir] > temp21 ) {
+                    if (start_dir==0 && end_dir==0){
+                        for (int k=0; k < (starNum[2][start_dir][1][end_dir] - temp21); ++k) {
+                            motifTimestamps[30].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==0 && end_dir==1){
+                        for (int k=0; k < (starNum[2][start_dir][1][end_dir] - temp21); ++k) {
+                            motifTimestamps[24].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==0){
+                        for (int k=0; k < (starNum[2][start_dir][1][end_dir] - temp21); ++k) {
+                            motifTimestamps[32].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==1){
+                        for (int k=0; k < (starNum[2][start_dir][1][end_dir] - temp21); ++k) {
+                            motifTimestamps[26].push_back(starEdges[i].t);
+                        }
+                    }
+                }
             }
             if(end_dir==0) ++nbrNum0[end_nbr];
             else ++nbrNum1[end_nbr];
