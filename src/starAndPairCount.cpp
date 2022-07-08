@@ -28,8 +28,31 @@ void countStarNum(vector<StarEdgeData>& starEdges, int allStarNum[3][2][2][2], i
                 pairNum[start_dir][1][end_dir] += nbrNum1[start_nbr];
             }
             else
-            {
+            { 
+                // CM
+                int temp00 = starNum[0][start_dir][0][end_dir];
                 starNum[0][start_dir][0][end_dir] += nbrNum0[end_nbr];
+                // CM
+                if (starNum[0][start_dir][0][end_dir] > temp00 ) {
+                    if (start_dir==0 && end_dir==0){
+                        for (int k = 0; k < (starNum[0][start_dir][0][end_dir] - temp00); ++k) {
+                            motifTimestamps[7].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==0 && end_dir==1){
+                        for (int k = 0; k < (starNum[0][start_dir][0][end_dir] - temp00); ++k) {
+                            motifTimestamps[6].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==0){
+                        for (int k = 0; k < (starNum[0][start_dir][0][end_dir] - temp00); ++k) {
+                            motifTimestamps[1].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==1){
+                        for (int k = 0; k < (starNum[0][start_dir][0][end_dir] - temp00); ++k) {
+                            motifTimestamps[0].push_back(starEdges[i].t);
+                        }
+                    }
+                    
+                }
                 starNum[0][start_dir][1][end_dir] += nbrNum1[end_nbr];
                 starNum[2][start_dir][0][end_dir] += nbrNum0[start_nbr];
                 starNum[2][start_dir][1][end_dir] += nbrNum1[start_nbr];

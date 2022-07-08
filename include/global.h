@@ -10,4 +10,6 @@ extern int nodesNum;
 extern int threadNum;
 extern bool ompFlag;
 extern int thrd;
+// CM
+extern vector<int> motifTimestamps[];
 #endif // GLOBAL_H
