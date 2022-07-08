@@ -33,6 +33,7 @@ void countStarNum(vector<StarEdgeData>& starEdges, int allStarNum[3][2][2][2], i
                 int temp00 = starNum[0][start_dir][0][end_dir];
                 starNum[0][start_dir][0][end_dir] += nbrNum0[end_nbr];
                 // CM
+                // if there are new motifs, add their starting timestamps to motifTimestamps
                 if (starNum[0][start_dir][0][end_dir] > temp00 ) {
                     if (start_dir==0 && end_dir==0){
                         for (int k = 0; k < (starNum[0][start_dir][0][end_dir] - temp00); ++k) {
@@ -53,7 +54,27 @@ void countStarNum(vector<StarEdgeData>& starEdges, int allStarNum[3][2][2][2], i
                     }
                     
                 }
+                int temp01 = starNum[0][start_dir][1][end_dir];
                 starNum[0][start_dir][1][end_dir] += nbrNum1[end_nbr];
+                if (starNum[0][start_dir][1][end_dir] > temp01 ) {
+                    if (start_dir==0 && end_dir==0){
+                        for (int k = 0; k < (starNum[0][start_dir][1][end_dir] - temp01); ++k) {
+                            motifTimestamps[9].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==0 && end_dir==1){
+                        for (int k = 0; k < (starNum[0][start_dir][1][end_dir] - temp01); ++k) {
+                            motifTimestamps[8].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==0){
+                        for (int k = 0; k < (starNum[0][start_dir][1][end_dir] - temp01); ++k) {
+                            motifTimestamps[3].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==1){
+                        for (int k = 0; k < (starNum[0][start_dir][1][end_dir] - temp01); ++k) {
+                            motifTimestamps[2].push_back(starEdges[i].t);
+                        }
+                    }
+                }
                 starNum[2][start_dir][0][end_dir] += nbrNum0[start_nbr];
                 starNum[2][start_dir][1][end_dir] += nbrNum1[start_nbr];
             }
