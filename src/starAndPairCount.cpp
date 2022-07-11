@@ -65,7 +65,30 @@ void countStarNum(vector<StarEdgeData>& starEdges, int allStarNum[3][2][2][2], i
                         }
                     }
                 }
+                // CM
+                // only have to count on one of outgoing/incoming pair motifs because they are isomorphic and
+                // will capture the first timestamp anyway, so I chose this one arbitrarily
+                int tempp0 = pairNum[start_dir][0][end_dir];
                 pairNum[start_dir][0][end_dir] += nbrNum0[start_nbr];
+                if (pairNum[start_dir][0][end_dir] > tempp0) {
+                    if (start_dir==0 && end_dir==0) {
+                        for (int k = 0; k < (pairNum[start_dir][0][end_dir] - tempp0); ++k) {
+                            motifTimestamps[28].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==0 && end_dir==1) {
+                        for (int k = 0; k < (pairNum[start_dir][0][end_dir] - tempp0); ++k) {
+                            motifTimestamps[35].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==0) {
+                        for (int k = 0; k < (pairNum[start_dir][0][end_dir] - tempp0); ++k) {
+                            motifTimestamps[29].push_back(starEdges[i].t);
+                        }
+                    } else if (start_dir==1 && end_dir==1) {
+                        for (int k = 0; k < (pairNum[start_dir][0][end_dir] - tempp0); ++k) {
+                            motifTimestamps[34].push_back(starEdges[i].t);
+                        }
+                    }
+                }
                 pairNum[start_dir][1][end_dir] += nbrNum1[start_nbr];
             }
             else
