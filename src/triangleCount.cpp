@@ -28,14 +28,45 @@ void countTriedNum(vector<StarEdgeData>& edges, vector<bool>& counted, int allTr
                     if(t<line1_t&&t>=line2_t-timeWindow)
                     {
                         ++triedNum[0][line1_dir][line2_dir][0];
+                        // CM
+                        // Type 1 triangle, so t_k (t here) is earliest timestamp
+                        if (line1_dir==0 && line2_dir==0) {
+                            motifTimestamps[4].push_back(t);
+                        } else if (line1_dir==0 && line2_dir==1) {
+                            motifTimestamps[16].push_back(t);
+                        } else if (line1_dir==1 && line2_dir==0) {
+                            motifTimestamps[10].push_back(t);
+                        } else if (line1_dir==1 && line2_dir==1) {
+                            motifTimestamps[22].push_back(t);
+                        }
                     }
                     else if(t>=line1_t&&t<=line2_t)
                     {
                         ++triedNum[1][line1_dir][line2_dir][0];
+                        // Type 2 triangle, so t_i (line1_t) is earliest timestamp
+                        if (line1_dir==0 && line2_dir==0) {
+                            motifTimestamps[16].push_back(line1_t);
+                        } else if (line1_dir==0 && line2_dir==1) {
+                            motifTimestamps[4].push_back(line1_t);
+                        } else if (line1_dir==1 && line2_dir==0) {
+                            motifTimestamps[11].push_back(line1_t);
+                        } else if (line1_dir==1 && line2_dir==1) {
+                            motifTimestamps[5].push_back(line1_t);
+                        }
                     }
                     else if(t>line2_t&&t<=line1_t+timeWindow)
                     {
                         ++triedNum[2][line1_dir][line2_dir][0];
+                        // Type 3 triangle, so t_i (line1_t) is earliest timestamp
+                        if (line1_dir==0 && line2_dir==0) {
+                            motifTimestamps[17].push_back(line1_t);
+                        } else if (line1_dir==0 && line2_dir==1) {
+                            motifTimestamps[5].push_back(line1_t);
+                        } else if (line1_dir==1 && line2_dir==0) {
+                            motifTimestamps[10].push_back(line1_t);
+                        } else if (line1_dir==1 && line2_dir==1) {
+                            motifTimestamps[4].push_back(line1_t);
+                        }
                     }
                     if(t>line1_t+timeWindow) break;
                 }
@@ -47,14 +78,44 @@ void countTriedNum(vector<StarEdgeData>& edges, vector<bool>& counted, int allTr
                     if(t<line1_t&&t>=line2_t-timeWindow)
                     {
                         ++triedNum[0][line1_dir][line2_dir][1];
+                        // Type 1 triangle so first timestamp is t_k (t here)
+                        if (line1_dir==0 && line2_dir==0) {
+                            motifTimestamps[5].push_back(t);
+                        } else if (line1_dir==0 && line2_dir==1) {
+                            motifTimestamps[11].push_back(t);
+                        } else if (line1_dir==1 && line2_dir==0) {
+                            motifTimestamps[17].push_back(t);
+                        } else if (line1_dir==1 && line2_dir==1) {
+                            motifTimestamps[23].push_back(t);
+                        }
                     }
                     else if(t>=line1_t&&t<=line2_t)
                     {
                         ++triedNum[1][line1_dir][line2_dir][1];
+                        // Type 2 triangle, so t_i (line1_t) is earliest timestamp
+                        if (line1_dir==0 && line2_dir==0) {
+                            motifTimestamps[22].push_back(line1_t);
+                        } else if (line1_dir==0 && line2_dir==1) {
+                            motifTimestamps[10].push_back(line1_t);
+                        } else if (line1_dir==1 && line2_dir==0) {
+                            motifTimestamps[23].push_back(line1_t);
+                        } else if (line1_dir==1 && line2_dir==1) {
+                            motifTimestamps[17].push_back(line1_t);
+                        }
                     }
                     else if(t>line2_t&&t<=line1_t+timeWindow)
                     {
                         ++triedNum[2][line1_dir][line2_dir][1];
+                        // Type 3 triangle, so t_i (line1_t) is earliest timestamp
+                        if (line1_dir==0 && line2_dir==0) {
+                            motifTimestamps[23].push_back(line1_t);
+                        } else if (line1_dir==0 && line2_dir==1) {
+                            motifTimestamps[11].push_back(line1_t);
+                        } else if (line1_dir==1 && line2_dir==0) {
+                            motifTimestamps[22].push_back(line1_t);
+                        } else if (line1_dir==1 && line2_dir==1) {
+                            motifTimestamps[16].push_back(line1_t);
+                        }
                     }
                     if(t>line1_t+timeWindow) break;
                 }
