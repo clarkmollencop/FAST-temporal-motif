@@ -102,7 +102,7 @@ int main(int argc, char **argv)
     // CM
     for (int i=0; i<36; ++i) {
         printf("motif %i:", i);
-        for (int j=0; j<motifTimestamps[i].size(); ++j) {
+        for (unsigned int j=0; j<motifTimestamps[i].size(); ++j) {
             printf("%i,", motifTimestamps[i][j]);
         }
         printf("\n");
