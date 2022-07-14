@@ -7,4 +7,6 @@ int nodesNum;  //所有点的个数 the number of all points
 int threadNum = 1;
 bool ompFlag = false;
 int thrd = 2147483647;
+// CM
 vector<int> motifTimestamps[36]; // array of vectors that holds timestamps at which the motifs occurred
+bool uniqueTimestamps = false; // specifies if the timestamps in certain motifs are required to be unique or not, default=false

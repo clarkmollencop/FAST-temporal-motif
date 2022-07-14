@@ -28,6 +28,9 @@ int main(int argc, char **argv)
     /* time span */
     int timeWindow = 2147483647;
     if(args.find("-w")!=args.end()) timeWindow = stoi(args["-w"]);
+    // CM
+    /* uniqueTimestamps flag */
+    if(args.find("-w")!=args.end()) uniqueTimestamps = stoi(args["-u"]);
 
     bool inputFlag = getEdges(inputFile);
     if(!inputFlag) return 0;

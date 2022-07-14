@@ -12,4 +12,5 @@ extern bool ompFlag;
 extern int thrd;
 // CM
 extern vector<int> motifTimestamps[];
+extern bool uniqueTimestamps;
 #endif // GLOBAL_H
