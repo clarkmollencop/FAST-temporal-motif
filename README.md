@@ -50,6 +50,7 @@ you can modify *makefile* to change compile settings. The default settings:
 |----------|-----------|-------------------------------------------------------|--------------------|
 | -input   | string    | the path of input data file                           | Yes                |
 | -output  | string    | the path of output file                               | Yes                |
+| -timesOut| string    | the path of motif timestamps output file              | Yes                |
 | -f       | int *0/1* | single/multiple threads                               | No default 0       |
 | -t       | int       | the number of threads (when using multiple threads)   | No default 1      |
 | -d       | int       | the threshold of degree (when using multiple threads) | No default INT_MAX |
@@ -70,6 +71,9 @@ n rows, each row represents a directed edge
 use space as separator
 ### Output file
 a 6\*6 martix, each element representing the number of motif instances for $M_{i,j}$ in our paper.
+
+### Motif timestamps output file
+motif number (from flattened 6\*6 matrix, 0-indexed): timestamps at which that motif occurred
 
 ## Experiment
 Results of our experiments are shown in **appendix.pdf**
