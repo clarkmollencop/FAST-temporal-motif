@@ -19,6 +19,8 @@ int main(int argc, char **argv)
     const string inputFile = args["-input"];
     /* output file */
     const string outputFile = args["-output"];
+    /* motif timestamps output */
+    const string motifOutput = args["-timesOut"];
     /* OPENMP flag */
     if(args.find("-f")!=args.end()) ompFlag = stoi(args["-f"]);
     /* the number of threads */
@@ -101,11 +103,30 @@ int main(int argc, char **argv)
     outfile.close();
     // CM
     for (int i=0; i<36; ++i) {
-        printf("motif %i:", i);
+        printf("%i:", i);
         for (unsigned int j=0; j<motifTimestamps[i].size(); ++j) {
             printf("%i,", motifTimestamps[i][j]);
         }
         printf("\n");
     }
+    // CM
+    // Code to put the contents of motifTimestamps into a file for analysis
+    ofstream motifOut;
+    motifOut.open(motifOutput);
+    if(!motifOut.is_open())
+    {
+        cout << "open motif output file failed" << endl;
+        cout << "motif output file path: " << motifOutput << endl;
+        return 0;
+    }
+    for(int i=0;i<36;i++)
+    {
+        motifOut << i << ":";
+        for (unsigned int j=0; j<motifTimestamps[i].size(); ++j) {
+            motifOut << motifTimestamps[i][j] << " ";
+        }
+        motifOut << "\n";
+    }
+    motifOut.close();
     return 0;
 }
