@@ -32,6 +32,3 @@
 *.out
 *.app
 
-# CM
-# also ignore text files (used for testing/input/output)
-*.txt
