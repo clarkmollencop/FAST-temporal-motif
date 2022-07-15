@@ -38,7 +38,14 @@ bool getEdges(const string& file)
         edgesNum -= 1;
     }
     **************************************************/
+    // CM 
+    // accomodating newlines at the end of the input
     int edgesNum = edges.size();
+    if(edgesNum>0)
+    {
+        edges.pop_back();
+        edgesNum -= 1;
+    }
     cout << "edgeNum: " << edgesNum << endl;
     /* convert numbers of nodes to 0-nodesNum */
     set<int> nodes;

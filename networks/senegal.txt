@@ -1,0 +1,333 @@
+source_name,target_name,month,source,target,weight,season,from_pop,to_pop,from_production,to_production,source_admin1,target_admin1,distance
+Dagana,Dakar,3,1228208,1228209,5057.25,hot dry,60299.992,468201.1,5441.0,2177.25,Saint-Louis,Dakar,374.0
+Dagana,Dakar,4,1228208,1228209,5057.25,hot dry,60299.992,468201.1,5441.0,2177.25,Saint-Louis,Dakar,374.0
+Dagana,Dakar,5,1228208,1228209,5057.25,hot dry,60299.992,468201.1,5441.0,2177.25,Saint-Louis,Dakar,374.0
+Dagana,Dakar,6,1228208,1228209,5057.25,hot dry,60299.992,468201.1,5441.0,2177.25,Saint-Louis,Dakar,374.0
+Dagana,Saint-Louis,3,1228208,1228217,3833.5,hot dry,60299.992,8405.305,5441.0,10.0,Saint-Louis,Saint-Louis,128.0
+Dagana,Saint-Louis,4,1228208,1228217,3833.5,hot dry,60299.992,8405.305,5441.0,10.0,Saint-Louis,Saint-Louis,128.0
+Dagana,Saint-Louis,5,1228208,1228217,3833.5,hot dry,60299.992,8405.305,5441.0,10.0,Saint-Louis,Saint-Louis,128.0
+Dagana,Saint-Louis,6,1228208,1228217,3833.5,hot dry,60299.992,8405.305,5441.0,10.0,Saint-Louis,Saint-Louis,128.0
+Dakar,Diourbel,1,1228209,1228210,49.0,cold dry,468201.1,106848.87,2026.75,0.0,Dakar,Diourbel,159.0
+Dakar,Diourbel,2,1228209,1228210,49.0,cold dry,468201.1,106848.87,2026.75,0.0,Dakar,Diourbel,159.0
+Dakar,Diourbel,11,1228209,1228210,49.0,cold dry,468201.1,106848.87,2026.75,0.0,Dakar,Diourbel,159.0
+Dakar,Diourbel,12,1228209,1228210,49.0,cold dry,468201.1,106848.87,2026.75,0.0,Dakar,Diourbel,159.0
+Dakar,Kaolack,1,1228209,1228212,107.0,cold dry,468201.1,40779.58,2026.75,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,2,1228209,1228212,107.0,cold dry,468201.1,40779.58,2026.75,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,3,1228209,1228212,49.0,hot dry,468201.1,40779.58,2177.25,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,4,1228209,1228212,49.0,hot dry,468201.1,40779.58,2177.25,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,5,1228209,1228212,49.0,hot dry,468201.1,40779.58,2177.25,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,6,1228209,1228212,49.0,hot dry,468201.1,40779.58,2177.25,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,7,1228209,1228212,19.0,rainy,468201.1,40779.58,1198.75,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,8,1228209,1228212,19.0,rainy,468201.1,40779.58,1198.75,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,9,1228209,1228212,19.0,rainy,468201.1,40779.58,1198.75,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,10,1228209,1228212,19.0,rainy,468201.1,40779.58,1198.75,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,11,1228209,1228212,107.0,cold dry,468201.1,40779.58,2026.75,0.0,Dakar,Kaolack,690.0
+Dakar,Kaolack,12,1228209,1228212,107.0,cold dry,468201.1,40779.58,2026.75,0.0,Dakar,Kaolack,690.0
+Dakar,Kedougou,1,1228209,1228213,0.5,cold dry,468201.1,18794.096,2026.75,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,2,1228209,1228213,0.5,cold dry,468201.1,18794.096,2026.75,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,3,1228209,1228213,1.25,hot dry,468201.1,18794.096,2177.25,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,4,1228209,1228213,1.25,hot dry,468201.1,18794.096,2177.25,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,5,1228209,1228213,1.25,hot dry,468201.1,18794.096,2177.25,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,6,1228209,1228213,1.25,hot dry,468201.1,18794.096,2177.25,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,7,1228209,1228213,1.0,rainy,468201.1,18794.096,1198.75,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,8,1228209,1228213,1.0,rainy,468201.1,18794.096,1198.75,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,9,1228209,1228213,1.0,rainy,468201.1,18794.096,1198.75,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,10,1228209,1228213,1.0,rainy,468201.1,18794.096,1198.75,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,11,1228209,1228213,0.5,cold dry,468201.1,18794.096,2026.75,0.0,Dakar,Kedougou,698.0
+Dakar,Kedougou,12,1228209,1228213,0.5,cold dry,468201.1,18794.096,2026.75,0.0,Dakar,Kedougou,698.0
+Dakar,Kolda,1,1228209,1228214,26.25,cold dry,468201.1,42328.4,2026.75,1.0,Dakar,Kolda,690.0
+Dakar,Kolda,2,1228209,1228214,26.25,cold dry,468201.1,42328.4,2026.75,1.0,Dakar,Kolda,690.0
+Dakar,Kolda,3,1228209,1228214,106.0,hot dry,468201.1,42328.4,2177.25,0.0,Dakar,Kolda,690.0
+Dakar,Kolda,4,1228209,1228214,106.0,hot dry,468201.1,42328.4,2177.25,0.0,Dakar,Kolda,690.0
+Dakar,Kolda,5,1228209,1228214,106.0,hot dry,468201.1,42328.4,2177.25,0.0,Dakar,Kolda,690.0
+Dakar,Kolda,6,1228209,1228214,106.0,hot dry,468201.1,42328.4,2177.25,0.0,Dakar,Kolda,690.0
+Dakar,Kolda,7,1228209,1228214,24.0,rainy,468201.1,42328.4,1198.75,1.0,Dakar,Kolda,690.0
+Dakar,Kolda,8,1228209,1228214,24.0,rainy,468201.1,42328.4,1198.75,1.0,Dakar,Kolda,690.0
+Dakar,Kolda,9,1228209,1228214,24.0,rainy,468201.1,42328.4,1198.75,1.0,Dakar,Kolda,690.0
+Dakar,Kolda,10,1228209,1228214,24.0,rainy,468201.1,42328.4,1198.75,1.0,Dakar,Kolda,690.0
+Dakar,Kolda,11,1228209,1228214,26.25,cold dry,468201.1,42328.4,2026.75,1.0,Dakar,Kolda,690.0
+Dakar,Kolda,12,1228209,1228214,26.25,cold dry,468201.1,42328.4,2026.75,1.0,Dakar,Kolda,690.0
+Dakar,Mbacke,1,1228209,1228215,310.25,cold dry,468201.1,25341.732,2026.75,0.0,Dakar,Diourbel,107.0
+Dakar,Mbacke,2,1228209,1228215,310.25,cold dry,468201.1,25341.732,2026.75,0.0,Dakar,Diourbel,107.0
+Dakar,Mbacke,3,1228209,1228215,49.0,hot dry,468201.1,25341.732,2177.25,0.0,Dakar,Diourbel,143.0
+Dakar,Mbacke,4,1228209,1228215,49.0,hot dry,468201.1,25341.732,2177.25,0.0,Dakar,Diourbel,143.0
+Dakar,Mbacke,5,1228209,1228215,49.0,hot dry,468201.1,25341.732,2177.25,0.0,Dakar,Diourbel,143.0
+Dakar,Mbacke,6,1228209,1228215,49.0,hot dry,468201.1,25341.732,2177.25,0.0,Dakar,Diourbel,143.0
+Dakar,Mbacke,7,1228209,1228215,31.5,rainy,468201.1,25341.732,1198.75,0.0,Dakar,Diourbel,143.0
+Dakar,Mbacke,8,1228209,1228215,31.5,rainy,468201.1,25341.732,1198.75,0.0,Dakar,Diourbel,143.0
+Dakar,Mbacke,9,1228209,1228215,31.5,rainy,468201.1,25341.732,1198.75,0.0,Dakar,Diourbel,143.0
+Dakar,Mbacke,10,1228209,1228215,31.5,rainy,468201.1,25341.732,1198.75,0.0,Dakar,Diourbel,143.0
+Dakar,Mbacke,11,1228209,1228215,310.25,cold dry,468201.1,25341.732,2026.75,0.0,Dakar,Diourbel,107.0
+Dakar,Mbacke,12,1228209,1228215,310.25,cold dry,468201.1,25341.732,2026.75,0.0,Dakar,Diourbel,107.0
+Dakar,Mbour,1,1228209,1228216,83.25,cold dry,468201.1,28598.383,2026.75,241.0,Dakar,Thies,89.0
+Dakar,Mbour,2,1228209,1228216,83.25,cold dry,468201.1,28598.383,2026.75,241.0,Dakar,Thies,89.0
+Dakar,Mbour,3,1228209,1228216,90.75,hot dry,468201.1,28598.383,2177.25,361.0,Dakar,Thies,89.0
+Dakar,Mbour,4,1228209,1228216,90.75,hot dry,468201.1,28598.383,2177.25,361.0,Dakar,Thies,89.0
+Dakar,Mbour,5,1228209,1228216,90.75,hot dry,468201.1,28598.383,2177.25,361.0,Dakar,Thies,89.0
+Dakar,Mbour,6,1228209,1228216,90.75,hot dry,468201.1,28598.383,2177.25,361.0,Dakar,Thies,89.0
+Dakar,Mbour,7,1228209,1228216,23.25,rainy,468201.1,28598.383,1198.75,157.0,Dakar,Thies,89.0
+Dakar,Mbour,8,1228209,1228216,23.25,rainy,468201.1,28598.383,1198.75,157.0,Dakar,Thies,89.0
+Dakar,Mbour,9,1228209,1228216,23.25,rainy,468201.1,28598.383,1198.75,157.0,Dakar,Thies,89.0
+Dakar,Mbour,10,1228209,1228216,23.25,rainy,468201.1,28598.383,1198.75,157.0,Dakar,Thies,89.0
+Dakar,Mbour,11,1228209,1228216,83.25,cold dry,468201.1,28598.383,2026.75,241.0,Dakar,Thies,89.0
+Dakar,Mbour,12,1228209,1228216,83.25,cold dry,468201.1,28598.383,2026.75,241.0,Dakar,Thies,89.0
+Dakar,Tambacounda,1,1228209,1228218,39.25,cold dry,468201.1,19311.148,2026.75,0.75,Dakar,Tambacounda,464.0
+Dakar,Tambacounda,2,1228209,1228218,39.25,cold dry,468201.1,19311.148,2026.75,0.75,Dakar,Tambacounda,464.0
+Dakar,Tambacounda,11,1228209,1228218,39.25,cold dry,468201.1,19311.148,2026.75,0.75,Dakar,Tambacounda,464.0
+Dakar,Tambacounda,12,1228209,1228218,39.25,cold dry,468201.1,19311.148,2026.75,0.75,Dakar,Tambacounda,464.0
+Dakar,Thies,1,1228209,1228219,158.5,cold dry,468201.1,7328.341,2026.75,917.0,Dakar,Thies,67.0
+Dakar,Thies,2,1228209,1228219,158.5,cold dry,468201.1,7328.341,2026.75,917.0,Dakar,Thies,67.0
+Dakar,Thies,3,1228209,1228219,59.0,hot dry,468201.1,7328.341,2177.25,1372.0,Dakar,Thies,67.0
+Dakar,Thies,4,1228209,1228219,59.0,hot dry,468201.1,7328.341,2177.25,1372.0,Dakar,Thies,67.0
+Dakar,Thies,5,1228209,1228219,59.0,hot dry,468201.1,7328.341,2177.25,1372.0,Dakar,Thies,67.0
+Dakar,Thies,6,1228209,1228219,59.0,hot dry,468201.1,7328.341,2177.25,1372.0,Dakar,Thies,67.0
+Dakar,Thies,7,1228209,1228219,30.25,rainy,468201.1,7328.341,1198.75,598.0,Dakar,Thies,67.0
+Dakar,Thies,8,1228209,1228219,30.25,rainy,468201.1,7328.341,1198.75,598.0,Dakar,Thies,67.0
+Dakar,Thies,9,1228209,1228219,30.25,rainy,468201.1,7328.341,1198.75,598.0,Dakar,Thies,67.0
+Dakar,Thies,10,1228209,1228219,30.25,rainy,468201.1,7328.341,1198.75,598.0,Dakar,Thies,67.0
+Dakar,Thies,11,1228209,1228219,158.5,cold dry,468201.1,7328.341,2026.75,917.0,Dakar,Thies,67.0
+Dakar,Thies,12,1228209,1228219,158.5,cold dry,468201.1,7328.341,2026.75,917.0,Dakar,Thies,67.0
+Dakar,Ziguinchor,1,1228209,1228221,2.5,cold dry,468201.1,30808.516,2026.75,0.0,Dakar,Ziguinchor,446.0
+Dakar,Ziguinchor,2,1228209,1228221,2.5,cold dry,468201.1,30808.516,2026.75,0.0,Dakar,Ziguinchor,446.0
+Dakar,Ziguinchor,11,1228209,1228221,2.5,cold dry,468201.1,30808.516,2026.75,0.0,Dakar,Ziguinchor,446.0
+Dakar,Ziguinchor,12,1228209,1228221,2.5,cold dry,468201.1,30808.516,2026.75,0.0,Dakar,Ziguinchor,446.0
+Kolda,Ziguinchor,1,1228214,1228221,3.0,cold dry,42328.4,30808.516,1.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,2,1228214,1228221,3.0,cold dry,42328.4,30808.516,1.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,3,1228214,1228221,35.75,hot dry,42328.4,30808.516,0.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,4,1228214,1228221,35.75,hot dry,42328.4,30808.516,0.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,5,1228214,1228221,35.75,hot dry,42328.4,30808.516,0.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,6,1228214,1228221,35.75,hot dry,42328.4,30808.516,0.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,7,1228214,1228221,12.5,rainy,42328.4,30808.516,1.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,8,1228214,1228221,12.5,rainy,42328.4,30808.516,1.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,9,1228214,1228221,12.5,rainy,42328.4,30808.516,1.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,10,1228214,1228221,12.5,rainy,42328.4,30808.516,1.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,11,1228214,1228221,3.0,cold dry,42328.4,30808.516,1.0,0.0,Kolda,Ziguinchor,271.0
+Kolda,Ziguinchor,12,1228214,1228221,3.0,cold dry,42328.4,30808.516,1.0,0.0,Kolda,Ziguinchor,271.0
+Mbour,Fatick,1,1228216,1228211,18.75,cold dry,28598.383,111811.086,241.0,436.0,Thies,Fatick,60.7
+Mbour,Fatick,2,1228216,1228211,18.75,cold dry,28598.383,111811.086,241.0,436.0,Thies,Fatick,60.7
+Mbour,Fatick,3,1228216,1228211,20.0,hot dry,28598.383,111811.086,361.0,652.0,Thies,Fatick,60.7
+Mbour,Fatick,4,1228216,1228211,20.0,hot dry,28598.383,111811.086,361.0,652.0,Thies,Fatick,60.7
+Mbour,Fatick,5,1228216,1228211,20.0,hot dry,28598.383,111811.086,361.0,652.0,Thies,Fatick,60.7
+Mbour,Fatick,6,1228216,1228211,20.0,hot dry,28598.383,111811.086,361.0,652.0,Thies,Fatick,60.7
+Mbour,Fatick,7,1228216,1228211,23.75,rainy,28598.383,111811.086,157.0,284.0,Thies,Fatick,60.7
+Mbour,Fatick,8,1228216,1228211,23.75,rainy,28598.383,111811.086,157.0,284.0,Thies,Fatick,60.7
+Mbour,Fatick,9,1228216,1228211,23.75,rainy,28598.383,111811.086,157.0,284.0,Thies,Fatick,60.7
+Mbour,Fatick,10,1228216,1228211,23.75,rainy,28598.383,111811.086,157.0,284.0,Thies,Fatick,60.7
+Mbour,Fatick,11,1228216,1228211,18.75,cold dry,28598.383,111811.086,241.0,436.0,Thies,Fatick,60.7
+Mbour,Fatick,12,1228216,1228211,18.75,cold dry,28598.383,111811.086,241.0,436.0,Thies,Fatick,60.7
+Saint-Louis,Kedougou,1,1228217,1228213,1.0,cold dry,8405.305,18794.096,0.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,2,1228217,1228213,1.0,cold dry,8405.305,18794.096,0.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,3,1228217,1228213,6.5,hot dry,8405.305,18794.096,10.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,4,1228217,1228213,6.5,hot dry,8405.305,18794.096,10.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,5,1228217,1228213,6.5,hot dry,8405.305,18794.096,10.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,6,1228217,1228213,6.5,hot dry,8405.305,18794.096,10.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,7,1228217,1228213,2.0,rainy,8405.305,18794.096,0.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,8,1228217,1228213,2.0,rainy,8405.305,18794.096,0.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,9,1228217,1228213,2.0,rainy,8405.305,18794.096,0.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,10,1228217,1228213,2.0,rainy,8405.305,18794.096,0.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,11,1228217,1228213,1.0,cold dry,8405.305,18794.096,0.0,0.0,Saint-Louis,Kedougou,704.0
+Saint-Louis,Kedougou,12,1228217,1228213,1.0,cold dry,8405.305,18794.096,0.0,0.0,Saint-Louis,Kedougou,704.0
+Thies,Dakar,1,1228219,1228209,35.25,cold dry,7328.341,468201.1,917.0,2026.75,Thies,Dakar,72.0
+Thies,Dakar,2,1228219,1228209,35.25,cold dry,7328.341,468201.1,917.0,2026.75,Thies,Dakar,72.0
+Thies,Dakar,3,1228219,1228209,173.5,hot dry,7328.341,468201.1,1372.0,2177.25,Thies,Dakar,72.0
+Thies,Dakar,4,1228219,1228209,173.5,hot dry,7328.341,468201.1,1372.0,2177.25,Thies,Dakar,72.0
+Thies,Dakar,5,1228219,1228209,173.5,hot dry,7328.341,468201.1,1372.0,2177.25,Thies,Dakar,72.0
+Thies,Dakar,6,1228219,1228209,173.5,hot dry,7328.341,468201.1,1372.0,2177.25,Thies,Dakar,72.0
+Thies,Dakar,7,1228219,1228209,41.75,rainy,7328.341,468201.1,598.0,1198.75,Thies,Dakar,72.0
+Thies,Dakar,8,1228219,1228209,41.75,rainy,7328.341,468201.1,598.0,1198.75,Thies,Dakar,72.0
+Thies,Dakar,9,1228219,1228209,41.75,rainy,7328.341,468201.1,598.0,1198.75,Thies,Dakar,72.0
+Thies,Dakar,10,1228219,1228209,41.75,rainy,7328.341,468201.1,598.0,1198.75,Thies,Dakar,72.0
+Thies,Dakar,11,1228219,1228209,35.25,cold dry,7328.341,468201.1,917.0,2026.75,Thies,Dakar,72.0
+Thies,Dakar,12,1228219,1228209,35.25,cold dry,7328.341,468201.1,917.0,2026.75,Thies,Dakar,72.0
+Thies,Diourbel,1,1228219,1228210,3.25,cold dry,7328.341,106848.87,917.0,0.0,Thies,Diourbel,97.0
+Thies,Diourbel,2,1228219,1228210,3.25,cold dry,7328.341,106848.87,917.0,0.0,Thies,Diourbel,97.0
+Thies,Diourbel,3,1228219,1228210,8.25,hot dry,7328.341,106848.87,1372.0,2.0,Thies,Diourbel,97.0
+Thies,Diourbel,4,1228219,1228210,8.25,hot dry,7328.341,106848.87,1372.0,2.0,Thies,Diourbel,97.0
+Thies,Diourbel,5,1228219,1228210,8.25,hot dry,7328.341,106848.87,1372.0,2.0,Thies,Diourbel,97.0
+Thies,Diourbel,6,1228219,1228210,8.25,hot dry,7328.341,106848.87,1372.0,2.0,Thies,Diourbel,97.0
+Thies,Diourbel,7,1228219,1228210,5.5,rainy,7328.341,106848.87,598.0,0.0,Thies,Diourbel,97.0
+Thies,Diourbel,8,1228219,1228210,5.5,rainy,7328.341,106848.87,598.0,0.0,Thies,Diourbel,97.0
+Thies,Diourbel,9,1228219,1228210,5.5,rainy,7328.341,106848.87,598.0,0.0,Thies,Diourbel,97.0
+Thies,Diourbel,10,1228219,1228210,5.5,rainy,7328.341,106848.87,598.0,0.0,Thies,Diourbel,97.0
+Thies,Diourbel,11,1228219,1228210,3.25,cold dry,7328.341,106848.87,917.0,0.0,Thies,Diourbel,97.0
+Thies,Diourbel,12,1228219,1228210,3.25,cold dry,7328.341,106848.87,917.0,0.0,Thies,Diourbel,97.0
+Thies,Kaolack,1,1228219,1228212,10.75,cold dry,7328.341,40779.58,917.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,2,1228219,1228212,10.75,cold dry,7328.341,40779.58,917.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,3,1228219,1228212,104.0,hot dry,7328.341,40779.58,1372.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,4,1228219,1228212,104.0,hot dry,7328.341,40779.58,1372.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,5,1228219,1228212,104.0,hot dry,7328.341,40779.58,1372.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,6,1228219,1228212,104.0,hot dry,7328.341,40779.58,1372.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,7,1228219,1228212,34.5,rainy,7328.341,40779.58,598.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,8,1228219,1228212,34.5,rainy,7328.341,40779.58,598.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,9,1228219,1228212,34.5,rainy,7328.341,40779.58,598.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,10,1228219,1228212,34.5,rainy,7328.341,40779.58,598.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,11,1228219,1228212,10.75,cold dry,7328.341,40779.58,917.0,0.0,Thies,Kaolack,162.0
+Thies,Kaolack,12,1228219,1228212,10.75,cold dry,7328.341,40779.58,917.0,0.0,Thies,Kaolack,162.0
+Thies,Kolda,1,1228219,1228214,3.25,cold dry,7328.341,42328.4,917.0,1.0,Thies,Kolda,669.0
+Thies,Kolda,2,1228219,1228214,3.25,cold dry,7328.341,42328.4,917.0,1.0,Thies,Kolda,669.0
+Thies,Kolda,3,1228219,1228214,38.0,hot dry,7328.341,42328.4,1372.0,0.0,Thies,Kolda,669.0
+Thies,Kolda,4,1228219,1228214,38.0,hot dry,7328.341,42328.4,1372.0,0.0,Thies,Kolda,669.0
+Thies,Kolda,5,1228219,1228214,38.0,hot dry,7328.341,42328.4,1372.0,0.0,Thies,Kolda,669.0
+Thies,Kolda,6,1228219,1228214,38.0,hot dry,7328.341,42328.4,1372.0,0.0,Thies,Kolda,669.0
+Thies,Kolda,7,1228219,1228214,8.25,rainy,7328.341,42328.4,598.0,1.0,Thies,Kolda,669.0
+Thies,Kolda,8,1228219,1228214,8.25,rainy,7328.341,42328.4,598.0,1.0,Thies,Kolda,669.0
+Thies,Kolda,9,1228219,1228214,8.25,rainy,7328.341,42328.4,598.0,1.0,Thies,Kolda,669.0
+Thies,Kolda,10,1228219,1228214,8.25,rainy,7328.341,42328.4,598.0,1.0,Thies,Kolda,669.0
+Thies,Kolda,11,1228219,1228214,3.25,cold dry,7328.341,42328.4,917.0,1.0,Thies,Kolda,669.0
+Thies,Kolda,12,1228219,1228214,3.25,cold dry,7328.341,42328.4,917.0,1.0,Thies,Kolda,669.0
+Thies,Mbacke,1,1228219,1228215,17.25,cold dry,7328.341,25341.732,917.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,2,1228219,1228215,17.25,cold dry,7328.341,25341.732,917.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,3,1228219,1228215,127.0,hot dry,7328.341,25341.732,1372.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,4,1228219,1228215,127.0,hot dry,7328.341,25341.732,1372.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,5,1228219,1228215,127.0,hot dry,7328.341,25341.732,1372.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,6,1228219,1228215,127.0,hot dry,7328.341,25341.732,1372.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,7,1228219,1228215,25.75,rainy,7328.341,25341.732,598.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,8,1228219,1228215,25.75,rainy,7328.341,25341.732,598.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,9,1228219,1228215,25.75,rainy,7328.341,25341.732,598.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,10,1228219,1228215,25.75,rainy,7328.341,25341.732,598.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,11,1228219,1228215,17.25,cold dry,7328.341,25341.732,917.0,0.0,Thies,Diourbel,122.0
+Thies,Mbacke,12,1228219,1228215,17.25,cold dry,7328.341,25341.732,917.0,0.0,Thies,Diourbel,122.0
+Thies,Mbour,1,1228219,1228216,6.0,cold dry,7328.341,28598.383,917.0,241.0,Thies,Thies,55.0
+Thies,Mbour,2,1228219,1228216,6.0,cold dry,7328.341,28598.383,917.0,241.0,Thies,Thies,55.0
+Thies,Mbour,3,1228219,1228216,8.25,hot dry,7328.341,28598.383,1372.0,361.0,Thies,Thies,55.0
+Thies,Mbour,4,1228219,1228216,8.25,hot dry,7328.341,28598.383,1372.0,361.0,Thies,Thies,55.0
+Thies,Mbour,5,1228219,1228216,8.25,hot dry,7328.341,28598.383,1372.0,361.0,Thies,Thies,55.0
+Thies,Mbour,6,1228219,1228216,8.25,hot dry,7328.341,28598.383,1372.0,361.0,Thies,Thies,55.0
+Thies,Mbour,7,1228219,1228216,5.5,rainy,7328.341,28598.383,598.0,157.0,Thies,Thies,55.0
+Thies,Mbour,8,1228219,1228216,5.5,rainy,7328.341,28598.383,598.0,157.0,Thies,Thies,55.0
+Thies,Mbour,9,1228219,1228216,5.5,rainy,7328.341,28598.383,598.0,157.0,Thies,Thies,55.0
+Thies,Mbour,10,1228219,1228216,5.5,rainy,7328.341,28598.383,598.0,157.0,Thies,Thies,55.0
+Thies,Mbour,11,1228219,1228216,6.0,cold dry,7328.341,28598.383,917.0,241.0,Thies,Thies,55.0
+Thies,Mbour,12,1228219,1228216,6.0,cold dry,7328.341,28598.383,917.0,241.0,Thies,Thies,55.0
+Thies,Tambacounda,1,1228219,1228218,7.75,cold dry,7328.341,19311.148,917.0,0.75,Thies,Tambacounda,443.0
+Thies,Tambacounda,2,1228219,1228218,7.75,cold dry,7328.341,19311.148,917.0,0.75,Thies,Tambacounda,443.0
+Thies,Tambacounda,3,1228219,1228218,67.75,hot dry,7328.341,19311.148,1372.0,0.0,Thies,Tambacounda,443.0
+Thies,Tambacounda,4,1228219,1228218,67.75,hot dry,7328.341,19311.148,1372.0,0.0,Thies,Tambacounda,443.0
+Thies,Tambacounda,5,1228219,1228218,67.75,hot dry,7328.341,19311.148,1372.0,0.0,Thies,Tambacounda,443.0
+Thies,Tambacounda,6,1228219,1228218,67.75,hot dry,7328.341,19311.148,1372.0,0.0,Thies,Tambacounda,443.0
+Thies,Tambacounda,7,1228219,1228218,20.75,rainy,7328.341,19311.148,598.0,1.0,Thies,Tambacounda,443.0
+Thies,Tambacounda,8,1228219,1228218,20.75,rainy,7328.341,19311.148,598.0,1.0,Thies,Tambacounda,443.0
+Thies,Tambacounda,9,1228219,1228218,20.75,rainy,7328.341,19311.148,598.0,1.0,Thies,Tambacounda,443.0
+Thies,Tambacounda,10,1228219,1228218,20.75,rainy,7328.341,19311.148,598.0,1.0,Thies,Tambacounda,443.0
+Thies,Tambacounda,11,1228219,1228218,7.75,cold dry,7328.341,19311.148,917.0,0.75,Thies,Tambacounda,443.0
+Thies,Tambacounda,12,1228219,1228218,7.75,cold dry,7328.341,19311.148,917.0,0.75,Thies,Tambacounda,443.0
+Tivaouane,Dakar,1,1228220,1228209,240.75,cold dry,20201.29,468201.1,326.0,2026.75,Thies,Dakar,111.0
+Tivaouane,Dakar,2,1228220,1228209,240.75,cold dry,20201.29,468201.1,326.0,2026.75,Thies,Dakar,111.0
+Tivaouane,Dakar,3,1228220,1228209,621.0,hot dry,20201.29,468201.1,492.0,2177.25,Thies,Dakar,111.0
+Tivaouane,Dakar,4,1228220,1228209,621.0,hot dry,20201.29,468201.1,492.0,2177.25,Thies,Dakar,111.0
+Tivaouane,Dakar,5,1228220,1228209,621.0,hot dry,20201.29,468201.1,492.0,2177.25,Thies,Dakar,111.0
+Tivaouane,Dakar,6,1228220,1228209,621.0,hot dry,20201.29,468201.1,492.0,2177.25,Thies,Dakar,111.0
+Tivaouane,Dakar,7,1228220,1228209,345.75,rainy,20201.29,468201.1,213.0,1198.75,Thies,Dakar,111.0
+Tivaouane,Dakar,8,1228220,1228209,345.75,rainy,20201.29,468201.1,213.0,1198.75,Thies,Dakar,111.0
+Tivaouane,Dakar,9,1228220,1228209,345.75,rainy,20201.29,468201.1,213.0,1198.75,Thies,Dakar,111.0
+Tivaouane,Dakar,10,1228220,1228209,345.75,rainy,20201.29,468201.1,213.0,1198.75,Thies,Dakar,111.0
+Tivaouane,Dakar,11,1228220,1228209,240.75,cold dry,20201.29,468201.1,326.0,2026.75,Thies,Dakar,111.0
+Tivaouane,Dakar,12,1228220,1228209,240.75,cold dry,20201.29,468201.1,326.0,2026.75,Thies,Dakar,111.0
+Tivaouane,Diourbel,1,1228220,1228210,21.75,cold dry,20201.29,106848.87,326.0,0.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,2,1228220,1228210,21.75,cold dry,20201.29,106848.87,326.0,0.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,3,1228220,1228210,57.5,hot dry,20201.29,106848.87,492.0,2.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,4,1228220,1228210,57.5,hot dry,20201.29,106848.87,492.0,2.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,5,1228220,1228210,57.5,hot dry,20201.29,106848.87,492.0,2.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,6,1228220,1228210,57.5,hot dry,20201.29,106848.87,492.0,2.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,7,1228220,1228210,46.0,rainy,20201.29,106848.87,213.0,0.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,8,1228220,1228210,46.0,rainy,20201.29,106848.87,213.0,0.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,9,1228220,1228210,46.0,rainy,20201.29,106848.87,213.0,0.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,10,1228220,1228210,46.0,rainy,20201.29,106848.87,213.0,0.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,11,1228220,1228210,21.75,cold dry,20201.29,106848.87,326.0,0.0,Thies,Diourbel,128.0
+Tivaouane,Diourbel,12,1228220,1228210,21.75,cold dry,20201.29,106848.87,326.0,0.0,Thies,Diourbel,128.0
+Tivaouane,Kaolack,1,1228220,1228212,184.25,cold dry,20201.29,40779.58,326.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,2,1228220,1228212,184.25,cold dry,20201.29,40779.58,326.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,3,1228220,1228212,451.5,hot dry,20201.29,40779.58,492.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,4,1228220,1228212,451.5,hot dry,20201.29,40779.58,492.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,5,1228220,1228212,451.5,hot dry,20201.29,40779.58,492.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,6,1228220,1228212,451.5,hot dry,20201.29,40779.58,492.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,7,1228220,1228212,167.25,rainy,20201.29,40779.58,213.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,8,1228220,1228212,167.25,rainy,20201.29,40779.58,213.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,9,1228220,1228212,167.25,rainy,20201.29,40779.58,213.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,10,1228220,1228212,167.25,rainy,20201.29,40779.58,213.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,11,1228220,1228212,184.25,cold dry,20201.29,40779.58,326.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kaolack,12,1228220,1228212,184.25,cold dry,20201.29,40779.58,326.0,0.0,Thies,Kaolack,192.0
+Tivaouane,Kolda,1,1228220,1228214,21.25,cold dry,20201.29,42328.4,326.0,1.0,Thies,Kolda,597.0
+Tivaouane,Kolda,2,1228220,1228214,21.25,cold dry,20201.29,42328.4,326.0,1.0,Thies,Kolda,597.0
+Tivaouane,Kolda,3,1228220,1228214,41.25,hot dry,20201.29,42328.4,492.0,0.0,Thies,Kolda,597.0
+Tivaouane,Kolda,4,1228220,1228214,41.25,hot dry,20201.29,42328.4,492.0,0.0,Thies,Kolda,597.0
+Tivaouane,Kolda,5,1228220,1228214,41.25,hot dry,20201.29,42328.4,492.0,0.0,Thies,Kolda,597.0
+Tivaouane,Kolda,6,1228220,1228214,41.25,hot dry,20201.29,42328.4,492.0,0.0,Thies,Kolda,597.0
+Tivaouane,Kolda,7,1228220,1228214,31.0,rainy,20201.29,42328.4,213.0,1.0,Thies,Kolda,597.0
+Tivaouane,Kolda,8,1228220,1228214,31.0,rainy,20201.29,42328.4,213.0,1.0,Thies,Kolda,597.0
+Tivaouane,Kolda,9,1228220,1228214,31.0,rainy,20201.29,42328.4,213.0,1.0,Thies,Kolda,597.0
+Tivaouane,Kolda,10,1228220,1228214,31.0,rainy,20201.29,42328.4,213.0,1.0,Thies,Kolda,597.0
+Tivaouane,Kolda,11,1228220,1228214,21.25,cold dry,20201.29,42328.4,326.0,1.0,Thies,Kolda,597.0
+Tivaouane,Kolda,12,1228220,1228214,21.25,cold dry,20201.29,42328.4,326.0,1.0,Thies,Kolda,597.0
+Tivaouane,Mbacke,1,1228220,1228215,313.5,cold dry,20201.29,25341.732,326.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,2,1228220,1228215,313.5,cold dry,20201.29,25341.732,326.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,3,1228220,1228215,701.25,hot dry,20201.29,25341.732,492.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,4,1228220,1228215,701.25,hot dry,20201.29,25341.732,492.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,5,1228220,1228215,701.25,hot dry,20201.29,25341.732,492.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,6,1228220,1228215,701.25,hot dry,20201.29,25341.732,492.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,7,1228220,1228215,269.0,rainy,20201.29,25341.732,213.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,8,1228220,1228215,269.0,rainy,20201.29,25341.732,213.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,9,1228220,1228215,269.0,rainy,20201.29,25341.732,213.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,10,1228220,1228215,269.0,rainy,20201.29,25341.732,213.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,11,1228220,1228215,313.5,cold dry,20201.29,25341.732,326.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbacke,12,1228220,1228215,313.5,cold dry,20201.29,25341.732,326.0,0.0,Thies,Diourbel,166.0
+Tivaouane,Mbour,1,1228220,1228216,37.25,cold dry,20201.29,28598.383,326.0,241.0,Thies,Thies,118.0
+Tivaouane,Mbour,2,1228220,1228216,37.25,cold dry,20201.29,28598.383,326.0,241.0,Thies,Thies,118.0
+Tivaouane,Mbour,3,1228220,1228216,99.25,hot dry,20201.29,28598.383,492.0,361.0,Thies,Thies,118.0
+Tivaouane,Mbour,4,1228220,1228216,99.25,hot dry,20201.29,28598.383,492.0,361.0,Thies,Thies,118.0
+Tivaouane,Mbour,5,1228220,1228216,99.25,hot dry,20201.29,28598.383,492.0,361.0,Thies,Thies,118.0
+Tivaouane,Mbour,6,1228220,1228216,99.25,hot dry,20201.29,28598.383,492.0,361.0,Thies,Thies,118.0
+Tivaouane,Mbour,7,1228220,1228216,130.5,rainy,20201.29,28598.383,213.0,157.0,Thies,Thies,118.0
+Tivaouane,Mbour,8,1228220,1228216,130.5,rainy,20201.29,28598.383,213.0,157.0,Thies,Thies,118.0
+Tivaouane,Mbour,9,1228220,1228216,130.5,rainy,20201.29,28598.383,213.0,157.0,Thies,Thies,118.0
+Tivaouane,Mbour,10,1228220,1228216,130.5,rainy,20201.29,28598.383,213.0,157.0,Thies,Thies,118.0
+Tivaouane,Mbour,11,1228220,1228216,37.25,cold dry,20201.29,28598.383,326.0,241.0,Thies,Thies,118.0
+Tivaouane,Mbour,12,1228220,1228216,37.25,cold dry,20201.29,28598.383,326.0,241.0,Thies,Thies,118.0
+Tivaouane,Saint-Louis,1,1228220,1228217,5.5,cold dry,20201.29,8405.305,326.0,0.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,2,1228220,1228217,5.5,cold dry,20201.29,8405.305,326.0,0.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,3,1228220,1228217,14.5,hot dry,20201.29,8405.305,492.0,10.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,4,1228220,1228217,14.5,hot dry,20201.29,8405.305,492.0,10.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,5,1228220,1228217,14.5,hot dry,20201.29,8405.305,492.0,10.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,6,1228220,1228217,14.5,hot dry,20201.29,8405.305,492.0,10.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,7,1228220,1228217,11.5,rainy,20201.29,8405.305,213.0,0.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,8,1228220,1228217,11.5,rainy,20201.29,8405.305,213.0,0.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,9,1228220,1228217,11.5,rainy,20201.29,8405.305,213.0,0.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,10,1228220,1228217,11.5,rainy,20201.29,8405.305,213.0,0.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,11,1228220,1228217,5.5,cold dry,20201.29,8405.305,326.0,0.0,Thies,Saint-Louis,180.0
+Tivaouane,Saint-Louis,12,1228220,1228217,5.5,cold dry,20201.29,8405.305,326.0,0.0,Thies,Saint-Louis,180.0
+Tivaouane,Tambacounda,1,1228220,1228218,112.5,cold dry,20201.29,19311.148,326.0,0.75,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,2,1228220,1228218,112.5,cold dry,20201.29,19311.148,326.0,0.75,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,3,1228220,1228218,146.25,hot dry,20201.29,19311.148,492.0,0.0,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,4,1228220,1228218,146.25,hot dry,20201.29,19311.148,492.0,0.0,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,5,1228220,1228218,146.25,hot dry,20201.29,19311.148,492.0,0.0,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,6,1228220,1228218,146.25,hot dry,20201.29,19311.148,492.0,0.0,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,7,1228220,1228218,95.25,rainy,20201.29,19311.148,213.0,1.0,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,8,1228220,1228218,95.25,rainy,20201.29,19311.148,213.0,1.0,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,9,1228220,1228218,95.25,rainy,20201.29,19311.148,213.0,1.0,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,10,1228220,1228218,95.25,rainy,20201.29,19311.148,213.0,1.0,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,11,1228220,1228218,112.5,cold dry,20201.29,19311.148,326.0,0.75,Thies,Tambacounda,465.0
+Tivaouane,Tambacounda,12,1228220,1228218,112.5,cold dry,20201.29,19311.148,326.0,0.75,Thies,Tambacounda,465.0
+Tivaouane,Thies,1,1228220,1228219,22.75,cold dry,20201.29,7328.341,326.0,917.0,Thies,Thies,46.3
+Tivaouane,Thies,2,1228220,1228219,22.75,cold dry,20201.29,7328.341,326.0,917.0,Thies,Thies,46.3
+Tivaouane,Thies,3,1228220,1228219,62.0,hot dry,20201.29,7328.341,492.0,1372.0,Thies,Thies,46.3
+Tivaouane,Thies,4,1228220,1228219,62.0,hot dry,20201.29,7328.341,492.0,1372.0,Thies,Thies,46.3
+Tivaouane,Thies,5,1228220,1228219,62.0,hot dry,20201.29,7328.341,492.0,1372.0,Thies,Thies,46.3
+Tivaouane,Thies,6,1228220,1228219,62.0,hot dry,20201.29,7328.341,492.0,1372.0,Thies,Thies,46.3
+Tivaouane,Thies,7,1228220,1228219,32.75,rainy,20201.29,7328.341,213.0,598.0,Thies,Thies,46.3
+Tivaouane,Thies,8,1228220,1228219,32.75,rainy,20201.29,7328.341,213.0,598.0,Thies,Thies,46.3
+Tivaouane,Thies,9,1228220,1228219,32.75,rainy,20201.29,7328.341,213.0,598.0,Thies,Thies,46.3
+Tivaouane,Thies,10,1228220,1228219,32.75,rainy,20201.29,7328.341,213.0,598.0,Thies,Thies,46.3
+Tivaouane,Thies,11,1228220,1228219,22.75,cold dry,20201.29,7328.341,326.0,917.0,Thies,Thies,46.3
+Tivaouane,Thies,12,1228220,1228219,22.75,cold dry,20201.29,7328.341,326.0,917.0,Thies,Thies,46.3
+Tivaouane,Ziguinchor,1,1228220,1228221,15.25,cold dry,20201.29,30808.516,326.0,0.0,Thies,Ziguinchor,441.0
+Tivaouane,Ziguinchor,2,1228220,1228221,15.25,cold dry,20201.29,30808.516,326.0,0.0,Thies,Ziguinchor,441.0
+Tivaouane,Ziguinchor,3,1228220,1228221,29.5,hot dry,20201.29,30808.516,492.0,0.0,Thies,Ziguinchor,441.0
+Tivaouane,Ziguinchor,4,1228220,1228221,29.5,hot dry,20201.29,30808.516,492.0,0.0,Thies,Ziguinchor,441.0
+Tivaouane,Ziguinchor,5,1228220,1228221,29.5,hot dry,20201.29,30808.516,492.0,0.0,Thies,Ziguinchor,441.0
+Tivaouane,Ziguinchor,6,1228220,1228221,29.5,hot dry,20201.29,30808.516,492.0,0.0,Thies,Ziguinchor,441.0
+Tivaouane,Ziguinchor,7,1228220,1228221,22.0,rainy,20201.29,30808.516,213.0,0.0,Thies,Ziguinchor,419.0
+Tivaouane,Ziguinchor,8,1228220,1228221,22.0,rainy,20201.29,30808.516,213.0,0.0,Thies,Ziguinchor,419.0
+Tivaouane,Ziguinchor,9,1228220,1228221,22.0,rainy,20201.29,30808.516,213.0,0.0,Thies,Ziguinchor,419.0
+Tivaouane,Ziguinchor,10,1228220,1228221,22.0,rainy,20201.29,30808.516,213.0,0.0,Thies,Ziguinchor,419.0
+Tivaouane,Ziguinchor,11,1228220,1228221,15.25,cold dry,20201.29,30808.516,326.0,0.0,Thies,Ziguinchor,441.0
+Tivaouane,Ziguinchor,12,1228220,1228221,15.25,cold dry,20201.29,30808.516,326.0,0.0,Thies,Ziguinchor,441.0
