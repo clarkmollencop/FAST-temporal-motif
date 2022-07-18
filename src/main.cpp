@@ -147,12 +147,12 @@ int main(int argc, char **argv)
     motifOut.close();
     // test out map
     // CM
-    for (int i=0; i<36; ++i) {
-        printf("%i:", i);
-        for(pair<int, int> elem: motifTimeCounts[i]) {
-            printf("%i: %i, ", elem.first, elem.second);
-        }
-        printf("\n");
-    }
+    // for (int i=0; i<36; ++i) {
+    //     printf("%i:", i);
+    //     for(pair<int, int> elem: motifTimeCounts[i]) {
+    //         printf("%i: %i, ", elem.first, elem.second);
+    //     }
+    //     printf("\n");
+    // }
     return 0;
 }
