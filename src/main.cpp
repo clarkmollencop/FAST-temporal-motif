@@ -45,6 +45,15 @@ int main(int argc, char **argv)
     int allTriedNum[3][2][2][2] = {0};
     int allMotif[6][6] = {0};
 
+    // CM 
+    // Initialize counter array to all 0s for all timestamps [1-12]
+    // This is specifically for those timestamps(1-12), so if there are others this needs to change
+    for (int i=0; i<36; ++i) {
+        for (int j=1; j <13; ++j) {
+            motifTimeCounts[i].insert({j, 0});
+        }
+    }
+
     if(!ompFlag)
     {
         for(int nbr=0;nbr<nodesNum;++nbr)
@@ -119,14 +128,31 @@ int main(int argc, char **argv)
         cout << "motif output file path: " << motifOutput << endl;
         return 0;
     }
-    for(int i=0;i<36;i++)
-    {
-        motifOut << i << ":";
-        for (unsigned int j=0; j<motifTimestamps[i].size(); ++j) {
-            motifOut << motifTimestamps[i][j] << " ";
+    // for(int i=0;i<36;i++)
+    // {
+    //     motifOut << i << ":";
+    //     for (unsigned int j=0; j<motifTimestamps[i].size(); ++j) {
+    //         motifOut << motifTimestamps[i][j] << " ";
+    //     }
+    //     motifOut << "\n";
+    // }
+    // CM 
+    // format so it can easily be read as a dataframe for analysis
+    motifOut << "motif," << "time," << "count," << "delta" << "\n";
+    for(int i=0; i<36; ++i) {
+        for (int j=1; j < 13; ++j) {
+            motifOut << i << "," << j << "," << motifTimeCounts[i][j] << "," << timeWindow << "\n";
         }
-        motifOut << "\n";
     }
     motifOut.close();
+    // test out map
+    // CM
+    for (int i=0; i<36; ++i) {
+        printf("%i:", i);
+        for(pair<int, int> elem: motifTimeCounts[i]) {
+            printf("%i: %i, ", elem.first, elem.second);
+        }
+        printf("\n");
+    }
     return 0;
 }

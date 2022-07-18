@@ -8,3 +8,4 @@ int threadNum = 1;
 bool ompFlag = false;
 int thrd = 2147483647;
 vector<int> motifTimestamps[36]; // array of vectors that holds timestamps at which the motifs occurred
+map<int, int> motifTimeCounts[36]; // possible replacement for motifTimestamps, vector of maps that map time to counts 

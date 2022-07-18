@@ -12,4 +12,7 @@ extern bool ompFlag;
 extern int thrd;
 // CM
 extern vector<int> motifTimestamps[];
+// CM
+// possible replacement for motifTimestamps
+extern map<int, int> motifTimeCounts[];
 #endif // GLOBAL_H
