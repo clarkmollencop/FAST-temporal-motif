@@ -7,25 +7,7 @@ Fast-temporal-motif is an algorithm proposed to count sub-graphs (i.e., motifs)
 
 ## Compile
 ### Compile the project
-1. download the project, the project looks like:
-```bash
-/FAST-temporal-motif
-├── include
-│   ├── global.h
-│   ├── egeLoader.h
-│   ├── starAndPairCount.h
-│   ├── triangleCount.h
-│   └── convertMartix.h
-├── src
-│   ├── global.cpp
-│   ├── egeLoader.cpp
-│   ├── starAndPairCount.cpp
-│   ├── triangleCount.cpp
-│   ├── convertMartix.cpp
-│   └── main.cpp
-├── makefile
-└── README.md
-```
+1. download the project
 
 2. execute *make* to compile the project, and get FAST_temporal_motif.exe
 ```bash
